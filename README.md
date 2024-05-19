@@ -11,7 +11,7 @@ pip3 install -r requirements.txt
 - Run server
 
 ```bash
-fastapi dev main.py
+fastapi dev app/main.py
 ```
 
 - Open API doc
