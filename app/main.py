@@ -1,10 +1,12 @@
 from fastapi import FastAPI
 
 from .routers import users
+from .routers import items
 
 app = FastAPI()
 
 app.include_router(users.router)
+app.include_router(items.router)
 
 # An example file structure
 
@@ -53,3 +55,5 @@ As it is inside a Python package (a directory with a file __init__.py), it os a 
 # APIRouter
 
 # Dependencies
+
+# Another module with APIRouter
